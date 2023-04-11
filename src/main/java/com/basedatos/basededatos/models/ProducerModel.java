@@ -1,7 +1,9 @@
 package com.basedatos.basededatos.models;
 
 import jakarta.persistence.*;
+import org.springframework.web.bind.annotation.CrossOrigin;
 
+@CrossOrigin
 @Entity
 @Table(schema = "producer")
 public class ProducerModel {
